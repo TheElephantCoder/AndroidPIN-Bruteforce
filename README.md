@@ -18,13 +18,18 @@ This repository contains pre-generated PIN lists for **brute-forcing Android loc
 - ⚡ ADB & Fastboot tools (for manual PIN input automation)  
 - 🐍 Python (optional, for scripting brute-force automation)  
 
-## 🏗 Usage Instructions  
-⚠️ **Ensure you have legal authorization before testing any device.**  
+## 🔓 Cracking Android PINs with Kali NetHunter  
+You can use **Kali NetHunter** to brute-force Android PINs by leveraging ADB and PIN lists. One powerful tool for this process is **Android PIN Bruteforce**, available here:  
 
-1️⃣ **Transfer PIN lists** to your Kali NetHunter device  
-2️⃣ Use **ADB commands** or a custom script to attempt PIN entry  
-3️⃣ Analyze **PIN complexity and effectiveness**  
-4️⃣ **Advise on stronger authentication** (e.g., alphanumeric passwords)  
+🔗 [Android PIN Bruteforce - GitHub](https://github.com/urbanadventurer/Android-PIN-Bruteforce)  
+
+### How It Works  
+1️⃣ **Enable ADB on the target device** (requires USB debugging or recovery mode access)  
+2️⃣ **Connect Kali NetHunter to the device via ADB**  
+3️⃣ **Use a brute-force script** (such as Android PIN Bruteforce) to attempt PIN entry using the included PIN lists  
+4️⃣ **Analyze the results** and provide security recommendations  
+
+⚠️ **Make sure you have explicit permission before attempting to brute-force any device!**  
 
 ## 🔐 Legal & Ethical Use  
 ✅ **Allowed Use Cases**:  
